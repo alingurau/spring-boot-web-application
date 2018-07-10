@@ -6,15 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="module" />
+        <module name="model" />
         <module name="restAPI" />
         <module name="restAPI-impl" />
         <module name="serviceAPI" />
         <module name="serviceAPI-impl" />
+        <module name="spring-boot-web-application" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="model" target="1.5" />
+      <module name="model" target="1.8" />
       <module name="module" target="1.5" />
       <module name="restAPI" target="1.5" />
       <module name="restAPI-impl" target="1.5" />
@@ -22,6 +23,7 @@
       <module name="serviceAPI" target="1.5" />
       <module name="ServiceAPI" target="1.5" />
       <module name="serviceAPI-impl" target="1.5" />
+      <module name="spring-boot-web-application" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

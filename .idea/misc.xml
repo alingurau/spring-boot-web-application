@@ -16,6 +16,9 @@
         <option value="$PROJECT_DIR$/serviceAPI/pom.xml" />
         <option value="$PROJECT_DIR$/serviceAPI-impl/pom.xml" />
         <option value="$PROJECT_DIR$/restAPI-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/model/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-web-application/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-web-application/model/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -28,4 +31,5 @@
       </set>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
