@@ -6,19 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Model" />
-        <module name="RestAPI" />
-        <module name="RestAPI-impl" />
-        <module name="ServiceAPI" />
-        <module name="ServiceAPI-impl" />
+        <module name="module" />
+        <module name="restAPI" />
+        <module name="restAPI-impl" />
+        <module name="serviceAPI" />
+        <module name="serviceAPI-impl" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Model" target="1.5" />
-      <module name="RestAPI" target="1.5" />
+      <module name="model" target="1.5" />
+      <module name="module" target="1.5" />
+      <module name="restAPI" target="1.5" />
+      <module name="restAPI-impl" target="1.5" />
       <module name="RestAPI-impl" target="1.5" />
+      <module name="serviceAPI" target="1.5" />
       <module name="ServiceAPI" target="1.5" />
-      <module name="ServiceAPI-impl" target="1.5" />
+      <module name="serviceAPI-impl" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
