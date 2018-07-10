@@ -11,7 +11,6 @@
         <module name="restAPI-impl" />
         <module name="serviceAPI" />
         <module name="serviceAPI-impl" />
-        <module name="spring-boot-web-application" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
