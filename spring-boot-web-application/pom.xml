@@ -9,6 +9,7 @@
 	<modules>
 		<module>model</module>
         <module>rest-api</module>
+        <module>../rest-api-impl</module>
     </modules>
 	<packaging>pom</packaging>
 
