@@ -1,21 +1,22 @@
 package com.fortech;
 
+import dto.LicenseDto;
+import entity.License;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RestController
+@RequestMapping("/license")
 public interface LicenseController {
 
     @GetMapping
-    List<LicenseDto> readAllLicenses();
+    List<License> readAllLicenses();
 
     @GetMapping("/{licenseId}")
-    LicenseDto readOneLicense(@PathVariable Long licenseId);
+    License readOneLicense(@PathVariable Long licenseId);
 
     @PostMapping
-    ResponseEntity<Object> addLicense(@RequestBody LicenseDto input);
+    ResponseEntity<Object> addLicense(@RequestBody License input);
 }

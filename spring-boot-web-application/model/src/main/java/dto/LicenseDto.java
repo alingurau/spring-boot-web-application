@@ -1,4 +1,6 @@
-package com.fortech;
+package dto;
+
+import entity.License;
 
 public class LicenseDto {
 
@@ -39,7 +41,7 @@ private String validationKey;
         this.validationKey = validationKey;
     }
 
-    public LicenseEntity toEntity() {
+    public License toEntity() {
         LicenseEntity licenseEntity= new LicenseEntity();
 
         licenseEntity.setId(this.getId());
