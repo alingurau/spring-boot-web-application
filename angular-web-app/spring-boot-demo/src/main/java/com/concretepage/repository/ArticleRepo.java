@@ -1,4 +1,8 @@
 package com.concretepage.repository;
 
-public class ArticleRepo {
-}
+import com.concretepage.entity.Article;
+import org.springframework.data.repository.CrudRepository;
+
+public interface ArticleRepo extends CrudRepository<Article, Long> {
+
+    }
