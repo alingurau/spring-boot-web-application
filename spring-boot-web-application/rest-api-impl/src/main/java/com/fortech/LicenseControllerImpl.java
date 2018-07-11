@@ -26,18 +26,20 @@ public class LicenseControllerImpl implements LicenseController {
     }
 
     public List<License> readAllLicenses() {
-        return this.licenseRepository.findAll().stream().map(License::).collect(Collectors.toList());
+
+
+        return this.licenseRepository.findAll();
     }
 
-    public License readOneLicense(@PathVariable Long licenseId) {
-        return licenseRepository.exists(licenseId) ? this.licenseRepository.findOne(licenseId).toDto() :null;
+    @Override
+    public License readOneLicense(Long licenseId) {
+        return null;
     }
 
-    public ResponseEntity<Object> addLicense(@RequestBody License input) {
-        License result = licenseRepository.save(new License(input.getGeneratedKey(), input.getValidationKey())).toDto();
-   URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(result.getId()).toUri();
-
-   return ResponseEntity.created(location).build();
+    @Override
+    public ResponseEntity<Object> addLicense(License input) {
+        return null;
     }
+
 
 }

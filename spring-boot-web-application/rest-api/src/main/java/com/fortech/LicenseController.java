@@ -1,6 +1,6 @@
 package com.fortech;
 
-import dto.LicenseDto;
+
 import entity.License;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
