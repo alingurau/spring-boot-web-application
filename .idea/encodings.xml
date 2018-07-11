@@ -4,5 +4,9 @@
     <file url="file://$PROJECT_DIR$/spring-boot-web-application" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-web-application/model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-web-application/rest-api" charset="UTF-8" />
+<<<<<<< HEAD
+=======
+    <file url="file://$PROJECT_DIR$/spring-boot-web-application/rest-api-impl" charset="UTF-8" />
+>>>>>>> 03b8ae66ebd07cb3844723b42a844e929220c9e6
   </component>
 </project>

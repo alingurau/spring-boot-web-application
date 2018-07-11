@@ -1,6 +1,8 @@
 package entity;
 
 
+import dto.LicenseDto;
+
 import javax.persistence.*;
 @Entity
 @Table(name="License")
@@ -44,5 +46,12 @@ public class License {
     @Override
     public String toString(){
         return String.format("License[id=%d, validationKey='%s', generatedKey='%s']", id, validationKey, generatedKey);
+    }
+
+    public LicenseDto toDto(){
+        LicenseDto dto = new LicenseDto();
+        dto.setGeneratedKey(this.generatedKey);
+        dto.setValidationKey(this.validationKey);
+        return dto;
     }
 }

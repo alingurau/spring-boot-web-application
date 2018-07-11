@@ -8,6 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="model" />
         <module name="rest-api" />
+<<<<<<< HEAD
+=======
+        <module name="rest-api-impl" />
+>>>>>>> 03b8ae66ebd07cb3844723b42a844e929220c9e6
         <module name="restAPI" />
         <module name="restAPI-impl" />
         <module name="serviceAPI" />
@@ -18,6 +22,10 @@
       <module name="model" target="1.8" />
       <module name="module" target="1.5" />
       <module name="rest-api" target="1.8" />
+<<<<<<< HEAD
+=======
+      <module name="rest-api-impl" target="1.8" />
+>>>>>>> 03b8ae66ebd07cb3844723b42a844e929220c9e6
       <module name="restAPI" target="1.5" />
       <module name="restAPI-impl" target="1.5" />
       <module name="RestAPI-impl" target="1.5" />

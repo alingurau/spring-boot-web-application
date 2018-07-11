@@ -9,9 +9,14 @@
 	<modules>
 		<module>model</module>
         <module>rest-api</module>
+<<<<<<< HEAD
         <module>service_api</module>
 		<module>service_api_impl</module>
 	</modules>
+=======
+        <module>../rest-api-impl</module>
+    </modules>
+>>>>>>> 03b8ae66ebd07cb3844723b42a844e929220c9e6
 	<packaging>pom</packaging>
 
 	<name>spring-boot-web-application</name>

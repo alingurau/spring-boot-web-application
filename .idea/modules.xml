@@ -3,8 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-boot-web-application/model/model.iml" filepath="$PROJECT_DIR$/spring-boot-web-application/model/model.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/spring-boot-web-application/model/model.iml" filepath="$PROJECT_DIR$/spring-boot-web-application/model/model.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-web-application/rest-api/rest-api.iml" filepath="$PROJECT_DIR$/spring-boot-web-application/rest-api/rest-api.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-web-application/rest-api/rest-api.iml" filepath="$PROJECT_DIR$/spring-boot-web-application/rest-api/rest-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-web-application/rest-api-impl/rest-api-impl.iml" filepath="$PROJECT_DIR$/spring-boot-web-application/rest-api-impl/rest-api-impl.iml" />
+>>>>>>> 03b8ae66ebd07cb3844723b42a844e929220c9e6
       <module fileurl="file://$PROJECT_DIR$/spring-boot-web-application/restAPI/restAPI.iml" filepath="$PROJECT_DIR$/spring-boot-web-application/restAPI/restAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-web-application/restAPI-impl/restAPI-impl.iml" filepath="$PROJECT_DIR$/spring-boot-web-application/restAPI-impl/restAPI-impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-web-application/serviceAPI/serviceAPI.iml" filepath="$PROJECT_DIR$/spring-boot-web-application/serviceAPI/serviceAPI.iml" />
