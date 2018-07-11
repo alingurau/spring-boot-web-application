@@ -17,5 +17,5 @@ public interface LicenseController {
     LicenseDto readOneLicense(@PathVariable Long licenseId);
 
     @PostMapping
-    ResponseEntity<Object> add(@RequestBody LicenseDto input);
+    ResponseEntity<Object> addLicense(@RequestBody LicenseDto input);
 }
